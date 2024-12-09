@@ -1,5 +1,5 @@
 const canvas = document.getElementById("myCanvas");
-const ctx = canvas. getContext("2d");
+const ctx = canvas.getContext("2d");
 
 let gradient = ctx.createRadialGradient(350, 200, 150, 300, 120, 10);
 gradient.addColorStop(0, "red");
